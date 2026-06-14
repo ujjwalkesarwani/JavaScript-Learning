@@ -30,9 +30,30 @@ const obj2 = {3: "three",4: "four"};
 const obj3 = {...obj1, ...obj2};
 // console.log(obj3);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('name'));
+// console.log(tinderUser.hasOwnProperty('name'));
 
+
+const course = {
+    courseName: "JavaScript",
+    price: 299,
+    courseInstructor: "John Doe"
+}
+
+const {courseInstructor: instructor} = course;
+console.log(instructor);
+
+// {
+//     name: "John",
+//     course: "JavaScript",
+//     price: 299
+// }
+
+[
+    {},
+    {},
+    {}
+]
